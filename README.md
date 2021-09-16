@@ -36,21 +36,20 @@ Procedure” section of this document.
 6. The commands to operate the program are listed as follows -
 
 ### Commands 
-1. Create User account signup “userID” “password”
-2. Login login “userID” “password”
-3. Create Group creat_group “groupID”
-4. Join Group join_group “groupID”
-5. Leave Group leave_group “groupID”
-6. Pending request list list_request “groupID”
-7. Accept join request of a peer accept_request “groupID”
-“userID”
-8. List all the groups present in tracker list_group
-9. List all the files present to download list_file “groupID”
-10. Upload File upload_file “FilePath” “groupID”
-11. Download File download_file “groupID” “FileName”
-“DestinationPathWithNewFileNameAtEnd”
-12. Logout logout
-13. Stop Share of File stop_share “groupID” “fileName”
+1. Create User account ```signup “userID” “password”```
+2. Login ```login “userID” “password”```
+3. Create Group ```create_group “groupID”```
+4. Join Group ```join_group “groupID”```
+5. Leave Group ```leave_group “groupID”```
+6. Pending request list ```list_request “groupID”```
+7. Accept join request of a peer ```accept_request “groupID”
+“userID”```
+8. List all the groups present in tracker ```list_group```
+9. List all the files present to download ```list_file “groupID”```
+10. Upload File ```upload_file “FilePath” “groupID”```
+11. Download File ```download_file “groupID” “FileName” “DestinationPathWithNewFileNameAtEnd”```
+12. Logout ```logout```
+13. Stop Share of File ```stop_share “groupID” “fileName”```
 
 ## Working of software [ Theory ]
 
@@ -73,8 +72,8 @@ was to be shared.
 the connections again, for more requests of file sharing.
 
 Copyright |  Yashraj Shukla
------------------------
-Linkedin | https://www.linkedin.com/in/whynesspower
+--------- | ---------------
+Linkedin  | https://www.linkedin.com/in/whynesspower
 Project Duration | July 27th to September 16th, 2021
 
 ©@Apache License ©
