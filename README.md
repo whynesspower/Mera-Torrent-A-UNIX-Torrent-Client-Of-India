@@ -8,8 +8,10 @@ encoding of the file.
 
 **Please read Project-Report file for detailed explanation**
 
-###How to compile and run the software
+### How to compile and run the software
+
 **Pre-Requisites**
+
 1. You must have Unix based operating system like MacOS or any
 version of Linux, if you are using windows make sure you have
 WSL library installed to run Linux based system software
@@ -19,7 +21,7 @@ https://zoomadmin.com/HowToInstall/UbuntuPackage/libssl-dev
 3. I have already provided the compiled files for my software if you
 are having any problem compiling the original code
 
-###Running the software
+### Running the software
 
  1. tracker.cpp file is to be launched first
 Compile the code yourself using ```g++ -pthread -o tracker tracker.cpp``` command
@@ -33,7 +35,7 @@ as per the video tutorial or the steps given in the “Working and
 Procedure” section of this document.
 6. The commands to operate the program are listed as follows -
 
-###Commands 
+### Commands 
 1. Create User account signup “userID” “password”
 2. Login login “userID” “password”
 3. Create Group creat_group “groupID”
@@ -50,7 +52,7 @@ Procedure” section of this document.
 12. Logout logout
 13. Stop Share of File stop_share “groupID” “fileName”
 
-##Working of software [ Theory ]
+## Working of software [ Theory ]
 
 1. This program basically, allows you to share files between peers/users
 without involving any use of a server in between. To share a file first
@@ -71,7 +73,7 @@ was to be shared.
 the connections again, for more requests of file sharing.
 
 Copyright |  Yashraj Shukla
---------- | ---------------
+-----------------------
 Linkedin | https://www.linkedin.com/in/whynesspower
 Project Duration | July 27th to September 16th, 2021
 
